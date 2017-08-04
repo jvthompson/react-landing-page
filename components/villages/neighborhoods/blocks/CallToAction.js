@@ -10,8 +10,8 @@ class CallToAction extends React.Component {
     return (
       <div>
         <Col lg={12}>
-          <Title/>
-          <Subtitle/>
+          <Title title={this.props.title}/>
+          <Subtitle subtitle={this.props.subtitle}/>
           <Button/>
         </Col>
       </div>

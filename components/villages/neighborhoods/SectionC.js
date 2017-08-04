@@ -9,7 +9,7 @@ class SectionC extends React.Component {
       <section className="section-c">
         <Container>
           <Row>
-            <CallToAction/>
+            <CallToAction title={this.props.title} subtitle={this.props.subtitle}/>
           </Row>
         </Container>
       </section>

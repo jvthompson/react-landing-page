@@ -11,10 +11,10 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className="landing-page">
-        <Header/>
+        <Header title="Developer Bot For Slack" subtitle="One article to one random person in your Slack group. Once a day."/>
         <SectionA/>
         <SectionB/>
-        <SectionC/>
+        <SectionC title="Developer Bot For Slack" subtitle="One article to one random person in your Slack group. Once a day."/>
         <Footer/>
       </div>
     )
