@@ -8,7 +8,7 @@ class Demo extends React.Component {
   render () {
     return (
       <div className="demo">
-        <Header title="Chat Bot Demo" subtitle="Watch how it works."/>
+        <Header messages={true} title="Chat Bot Demo" subtitle="Watch how it works."/>
         <Footer/>
       </div>
     )
